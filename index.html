@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+    <link rel="icon" type="image/jpg" href="src/assets/maleta.png">
+    <link rel="stylesheet" href="src/index.css">
+</head>
+
+<body class="bg-gray-100 text-gray-900 font-open-sans">
+    <header class="bg-blue-900 text-white p-4 text-center">
+        <h1 class="text-4xl py-5 font-bold">Juan Esteban Narváez Carvajal - Desarrollador Web</h1>
+        <nav>
+            <ul class="flex justify-center space-x-6 mt-2 text-xl">
+                <li><a href="#about" class="hover:text-yellow-400">Sobre Mí</a></li>
+                <li><a href="#projects" class="hover:text-yellow-400">Proyectos</a></li>
+                <li><a href="#education" class="hover:text-yellow-400">Educación</a></li>
+                <li><a href="#skills" class="hover:text-yellow-400">Habilidades</a></li>
+                <li><a href="#contact" class="hover:text-yellow-400">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="text-center py-10">
+        <img src="src/assets/foto_normal.jpg" alt="Foto de Juan Esteban Narvaez" class="mx-auto w-40 mb-4 rounded">
+        <h2 class="text-3xl text-blue-900 font-bold">Transformando ideas en soluciones digitales</h2>
+        <a href="https://drive.google.com/file/d/1a8i-BEjP1QRP1zut9Lw9Atd9r8RAqJSk/view?usp=sharing" target="_blank"
+            class="text-lg text-blue-500 no-underline">
+            <h3 class="text-blue-900 font-bold text-xl">Descarga mi CV</h3>
+        </a>
+    </section>
+
+    <section id="about" class="py-8">
+        <h2 class="text-3xl text-blue-900 text-center mx-24 font-bold mb-5">Sobre Mí</h2>
+        <p class="text-lg max-w-6xl mx-auto">¡Hola! Soy Juan Esteban, un apasionado desarrollador web en búsqueda de
+            oportunidades para crecer y aplicar mis conocimientos en proyectos innovadores. A lo largo de mi formación,
+            he adquirido una sólida base en Javascript, Java y Python y estoy emocionado por iniciar mi carrera
+            profesional.</p>
+    </section>
+
+    <section id="projects" class="py-8 bg-gray-200">
+        <h2 class="text-3xl text-blue-900 text-center mx-24 font-bold mb-5">Proyectos</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-10">
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-between">
+                <h3 class="text-xl font-bold mb-5 text-blue-900">Encriptador y desencriptador de texto</h3>
+                <img src="src/assets/encriptador-texto.png" alt="Proyecto Encriptador de Texto" class="mb-4">
+                <p class="mb-5 text-left">Proyecto en el que se encripta y desencripta un párrafo a través del cifrado
+                    Cesar,
+                    implementado con tecnologías como HTML, CSS y Javascript.</p>
+                <a href="https://jesteban1999.github.io/encriptador-texto/" target="_blank"
+                    class="bg-blue-900 text-white p-2 w-1/3 rounded">Ver Proyecto</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-between">
+                <h3 class="text-xl font-bold mb-5 text-blue-900">Juego del número secreto</h3>
+                <img src="src/assets/juego-secreto.png" alt="Proyecto Juego Secreto" class="mb-4">
+                <p class="mb-5 text-left">Juego en el que se le pide al usuario encontrar un número generado de manera
+                    aleatoria, implementado con HTML, CSS y Javascript.</p>
+                <a href="https://jesteban1999.github.io/juego-secreto/" target="_blank"
+                    class="bg-blue-900 text-white p-2 w-1/3 rounded">Ver Proyecto</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-between">
+                <h3 class="text-xl font-bold mb-5 text-blue-900">CRM de Clientes</h3>
+                <img src="src/assets/crmclientes.png" alt="Proyecto control de clientes" class="mb-4">
+                <p class="mb-5 text-left">Proyecto en el que se realiza un control de usuarios, clientes, productos y
+                    pedidos con operaciones CRUD, implementado con GraphQL, Node.js, MongoDB y Next.js.</p>
+                <a href="https://crmcliente99-jesteban1999s-projects.vercel.app" target="_blank"
+                    class="bg-blue-900 text-white p-2 w-1/3 rounded">Ver Proyecto</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-between">
+                <h3 class="text-xl font-bold mb-5 text-blue-900">Administrador de pacientes veterinaria</h3>
+                <img src="src/assets/pacientes_vet.png" alt="Proyecto administrador veterinaria" class="mb-4">
+                <p class="mb-4 text-left">Proyecto en el que se crea un administrador de pacientes de veterinaria donde
+                    es posible crear, listar y eliminar cada registro utlizando React y CSS.</p>
+                <a href="https://citas-veterinaria-react-seven.vercel.app/" target="_blank"
+                    class="bg-blue-900 text-white p-2 rounded">Ver Proyecto</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-between">
+                <h3 class="text-xl font-bold mb-5 text-blue-900">Aplicación de cálculo de gastos</h3>
+                <img src="src/assets/presupuesto.png" alt="Aplicacion para calcular gastos" class="mb-4">
+                <p class="mb-4 text-left">Proyecto en el que se desarrolla una calculadora de gastos donde se digita el
+                    presupuesto y posteriormente los gastos llevando el calculo del dinero restante y la lista de gastos
+                    acumulados utilizando React y CSS.</p>
+                <a href="https://revisor-presupuesto-react.vercel.app/" target="_blank"
+                    class="bg-blue-900 text-white p-2 rounded">Ver Proyecto</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-between">
+                <h3 class="text-xl font-bold mb-5 text-blue-900">Cotizador de autos</h3>
+                <img src="src/assets/cotizador_autos.png" alt="Cotizador de autos" class="mb-4">
+                <p class="mb-4 text-left">Aplicación básica en la que se selecciona el tipo de auto, el año y
+                    posteriormente el tipo de plan de un auto para posteriormente calcular su costo total utilizando
+                    React y CSS.</p>
+                <a href="https://cotizador-autos-react.vercel.app" target="_blank"
+                    class="bg-blue-900 text-white p-2 rounded">Ver Proyecto</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-between">
+                <h3 class="text-xl font-bold mb-5 text-blue-900">Aplicación del clima</h3>
+                <img src="src/assets/aplicacion-clima.png" alt="Aplicación del clima" class="mb-4">
+                <p class="mb-4 text-left">Aplicación del clima en la que se busca una ciudad o pais del mundo y
+                    devuelve, entre otras cosas su temperatura actual y su pronóstico, realizado con React, Tailwind y
+                    mediante la API de OpenWeatherMap.</p>
+                <a href="https://aplicacion-clima-flax.vercel.app/" target="_blank"
+                    class="bg-blue-900 text-white p-2 rounded">Ver Proyecto</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-between">
+                <h3 class="text-xl font-bold mb-5 text-blue-900">Juego Tic-Tac-Toe</h3>
+                <img src="src/assets/tictactoe.png" alt="Juego Tic-Tac-Toe" class="mb-4">
+                <p class="mb-4 text-left">Juego de Tic-Tac-Toe utilizando React y Tailwind.</p>
+                <a href="https://tic-tac-toe-pi-rosy.vercel.app/" target="_blank"
+                    class="bg-blue-900 text-white p-2 rounded">Ver Proyecto</a>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-between">
+                <h3 class="text-xl font-bold mb-5 text-blue-900">Aplicación de recetas</h3>
+                <img src="src/assets/app-recetas.png" alt="Aplicación de recetas" class="mb-4">
+                <p class="mb-4 text-left">Aplicación de recetas en la que se consulta por el platillo y mediante la API
+                    de Edamam se retorna la receta y los ingredientes, realizado con React y Tailwind.</p>
+                <a href="https://app-recetas-kappa.vercel.app/" target="_blank"
+                    class="bg-blue-900 text-white p-2 rounded">Ver Proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-8 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl text-blue-900 text-center font-bold mb-5">
+                Educación
+            </h2>
+            <div class="space-y-8">
+
+                <blockquote class="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-900">
+                    <p class="text-xl font-semibold text-blue-800">Oracle Next Education</p>
+                    <cite class="block text-gray-600 mt-2">Formación en Tecnología y Programación, 2024 -
+                        Actualidad</cite>
+                </blockquote>
+
+                <blockquote class="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-900">
+                    <p class="text-xl font-semibold text-blue-800">Universidad Surcolombiana</p>
+                    <cite class="block text-gray-600 mt-2">Ingeniería Electrónica, 2017 - 2024</cite>
+                </blockquote>
+
+
+                <blockquote class="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-900">
+                    <p class="text-xl font-semibold text-blue-800">Universidad El Bosque</p>
+                    <cite class="block text-gray-600 mt-2">Diplomado en Programación: MISIÓN TIC 2022, 2021</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-8 bg-gray-200">
+        <h2 class="text-3xl text-blue-900 text-center mx-24 font-bold mb-5">Habilidades</h2>
+        <h3 class="text-xl font-semibold mb-5 text-center">Lenguajes de programación</h3>
+        <div class="flex justify-center space-x-4 mb-6">
+            <img alt="JavaScript"
+                src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+            <img alt="HTML5"
+                src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+            <img alt="CSS3"
+                src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+            <img alt="Java"
+                src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+            <img alt="Python"
+                src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+            <img alt="Python"
+                src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
+        </div>
+        <h3 class="text-xl font-semibold mb-5 text-center">Frameworks y herramientas</h3>
+        <div class="flex justify-center space-x-4 mb-6">
+            <img alt="Nodejs"
+                src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+            <img alt="Nodejs"
+                src="	https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+            <img alt="Visual Studio Code"
+                src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
+            <img alt="Spring"
+                src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+            <img alt="Apache Netbeans"
+                src="https://img.shields.io/badge/apache%20netbeans-1B6AC6?style=for-the-badge&logo=apache%20netbeans%20IDE&logoColor=white">
+            <img alt="Excel"
+                src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
+            <img alt="MongoDB"
+                src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+        </div>
+        <h3 class="text-xl font-semibold mb-5 text-center">Metodologías de trabajo</h3>
+        <div class="flex justify-center space-x-4">
+            <img alt="Git" src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
+            <img alt="Github"
+                src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+        </div>
+    </section>
+
+    <section id="contact" class="py-8">
+        <h2 class="text-3xl text-blue-900 text-center mx-24 font-bold mb-5">Contacto y redes sociales</h2>
+        <div class="flex justify-center space-x-4">
+            <a href="mailto:juesnaca99@gmail.com" target="_blank"><img alt="Gmail"
+                    src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+            <a href="https://www.linkedin.com/in/juan-esteban-narvaez-c/" target="_blank"><img alt="Linkedin"
+                    src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+            <a href="https://web.facebook.com/JEstebanNarvaezC/" target="_blank"><img alt="Facebook"
+                    src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
+            <a href="https://wa.me/+573176748714" target="_blank"><img alt="Whatsapp"
+                    src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+            <a href="https://t.me/JuanEsteban99" target="_blank"><img alt="Telegram"
+                    src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+            <a href="https://github.com/JEsteban1999" target="_blank"><img alt="Github"
+                    src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-gray-800 text-white">
+        <p>&copy; 2024 Juan Esteban Narváez Carvajal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
